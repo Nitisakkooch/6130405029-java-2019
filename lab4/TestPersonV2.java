@@ -1,5 +1,12 @@
- package koochaiyaphum.nitisak.lab4;
-
+/**
+*
+* Author: Nitisak Koochaiyaphum
+* ID: 613040502-9
+* Sec: 2
+* Date: January 12, 2012
+*
+**/
+package koochaiyaphum.nitisak.lab4;
 public class TestPersonV2 {
 
     public static void main(String[] args) {

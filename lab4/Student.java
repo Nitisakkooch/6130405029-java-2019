@@ -1,25 +1,33 @@
+/**
+*
+* Author: Nitisak Koochaiyaphum
+* ID: 613040502-9
+* Sec: 2
+* Date: January 12, 2012
+*
+**/
 package koochaiyaphum.nitisak.lab4;
+public class Student extends PersonV2{
+    
+    protected String major;
+    protected double GPA; 
 
-public class Student {
-    protected String major; //created variable name major with String type.
-    protected double GPA; //created variable name GPA with double type.
-
-	public Student(String name, double height, double weight, String dob, String major, double GPA) { //method receive 4 variables form PersonV2, major, and GPA.
-		super(name, height, weight, dob); //using super to call constructor from PersonV2.
+	public Student(String name, double height, double weight, String dob, String major, double GPA) { 
+		super(name, height, weight, dob); 
+    public String getMajor() { 
+        return major; 
     }
-    public String getMajor() { //getter for major variable.
-        return major; //return major value.
+    public void setMajor(String major) { 
+        this.major = major; 
     }
-    public void setMajor(String major) { //setter for major variable.
-        this.major = major; //set value to major variable.
+    public double getGPA() {
+        return GPA; 
     }
-    public double getGPA() { //getter for GPA variable.
-        return GPA; //return GPA value.
+    public void setGPA() { 
+        this.GPA = GPA; 
     }
-    public void setGPA() { //setter for GPA.
-        this.GPA = GPA; //set value to GPA variable.
-    }
-    public String toString(){ //method to show output to user.
-        return "name="+ name + ", height="+ height + " cm, weight="+ weight + "kg. , Birthday=" + dob + ", major=" + major + ", GPA=" + GPA; //showing name and information about "name" to user.
+    public String toString(){ 
+        return "name=" + name + ", height=" + height + " cm, weight=" + weight + "kg. , Birthday=" + dob + ", major="
+                + major + ", GPA=" + GPA; // showing name and information about "name" to user.
     }
 }

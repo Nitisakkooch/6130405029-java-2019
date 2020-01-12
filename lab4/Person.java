@@ -1,16 +1,17 @@
-/*
-  
-
-
-
-
-*/
+/**
+*
+* Author: Nitisak Koochaiyaphum
+* ID: 613040502-9
+* Sec: 2
+* Date: January 12, 2012
+*
+**/
 package koochaiyaphum.nitisak.lab4;
-public class Person {
+public class Person  {
     String name;
-    double height;
-    double weight;
-    static double numberOfPerson = 0;
+    protected static double height;
+    protected static double weight;
+    static double numberOfPerson = 0; 
 
   public Person() {// i
     name = "unknown";
@@ -43,13 +44,13 @@ public class Person {
   }
 
   public void setHeight(double height) {
-    this.height = height;
+    Person.height = height;
   }
   public double getWeight() {
     return weight;
   }
   public void setWeight(double weight) {
-    this.weight = weight;
+    Person.weight = weight;
   }
   @Override
   public String toString() {
