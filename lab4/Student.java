@@ -13,7 +13,8 @@ public class Student extends PersonV2{
     protected double GPA; 
 
 	public Student(String name, double height, double weight, String dob, String major, double GPA) { 
-		super(name, height, weight, dob); 
+        super(name, height, weight, dob); 
+    }
     public String getMajor() { 
         return major; 
     }
@@ -28,6 +29,6 @@ public class Student extends PersonV2{
     }
     public String toString(){ 
         return "name=" + name + ", height=" + height + " cm, weight=" + weight + "kg. , Birthday=" + dob + ", major="
-                + major + ", GPA=" + GPA; // showing name and information about "name" to user.
+                + major + ", GPA=" + GPA; 
     }
 }

@@ -10,8 +10,8 @@ package koochaiyaphum.nitisak.lab4;
 public class Person  {
     String name;
     protected static double height;
-    protected static double weight;
-    static double numberOfPerson = 0; 
+  protected static double weight;
+  static double numberOfPerson = 0;
 
   public Person() {// i
     name = "unknown";
@@ -31,13 +31,16 @@ public class Person  {
     this.height = height;
     numberOfPerson += 1;
   }
+
   //
   public String getName() {
     return name;
   }
+
   public void setName(String name) {
     this.name = name;
   }
+
   //
   public double getHeight() {
     return height;
