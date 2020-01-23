@@ -46,5 +46,10 @@ public  class Circle extends Shape{
         
          return super.toString()  +", radius:" + radius ;
     }
+	public  void setRadius(double d) {
+	}
+	public String getRadius() {/////////
+		return null;
+	}
     
 }

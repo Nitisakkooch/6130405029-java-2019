@@ -10,6 +10,7 @@
 * Date: December 16, 2019
 *
 **/
+package koochaiyaphum.nitisak.lab2;
 public class Athlete{
     public static void main(String[] args) {
         if (args.length != 3) {

@@ -11,6 +11,7 @@ Each time a number is entered, one of the following three possible outputs will 
 * Sec: 2
 * Date: December 23, 2019
 **/
+package koochaiyaphum.nitisak.lab3;
 import java.util.Scanner;
 public class NumberGuessingGame {
 	//declare input scanner and recall.

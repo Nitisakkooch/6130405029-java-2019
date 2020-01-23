@@ -7,6 +7,7 @@
 * Date: December 16, 2019
 *
 **/
+package koochaiyaphum.nitisak.lab2;
 public class VowelsCounter{
     public static void main(String[] args){
             String str = args[0];

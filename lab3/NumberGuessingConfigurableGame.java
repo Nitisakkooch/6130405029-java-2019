@@ -6,6 +6,7 @@ This a program to impove for NumberGuessingMethodGame class
 * Sec: 2
 * Date: December 23, 2019
 **/
+package koochaiyaphum.nitisak.lab3;
 import java.util.*;
 public class NumberGuessingConfigurableGame {
     static int answer, min, max, numTries, rand;

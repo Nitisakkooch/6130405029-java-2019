@@ -12,9 +12,8 @@ This a program to divide method genAnswer() and playGame()
 * Sec: 2
 * Date: December 23, 2019
 **/
-//import java.util.Random;
+package koochaiyaphum.nitisak.lab3;
 import java.util.Scanner;
-//import java.awt.*;
 public class NumberGuessingMethodGame {
     static int answer, rand;
     static Scanner scanner = new Scanner(System.in);
