@@ -1,15 +1,32 @@
 
 /*
+This program java GUI name PersonFormV1 
 Author by :Nitisak Koochaiyaphum
 date : 23/01/2020
-This program java GUI name PersonFormV1  
 ID : 613040502-9
+sec: 2
+
 */
 package koochaiyaphum.nitisak.lab6;
-import javax.swing.*;
+import java.awt.BorderLayout;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.Insets;
+
+import javax.swing.ButtonGroup;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.JTextField;
+import javax.swing.SwingUtilities;
+
 
 public class PersonFormV1 extends MySimpleWindow{
-    protected JLabel name;
+    /**
+	 *
+	 */
+	private static final long serialVersionUID = 1L;
+	protected JLabel name;
 	protected JLabel height;
 	protected JLabel weight;
 	protected JLabel date;
@@ -49,48 +66,47 @@ public class PersonFormV1 extends MySimpleWindow{
         heightText = new JTextField(15);
         weightText = new JTextField(15);
         dateText = new JTextField(15);
-        
+
+		buttonPanel.setLayout(new GridBagLayout());
+
         gbc.weightx = 0.5;
 		gbc.weighty = 0.5;
 		gbc.fill = GridBagConstraints.HORIZONTAL;
 		gbc.gridx = 0;
 		gbc.gridy = 0;
-		buttonPanel.add(brandname, gbc);
+		buttonPanel.add(name, gbc);
 		gbc.gridy++;
-		buttonPanel.add(modelName, gbc);
+		buttonPanel.add(height, gbc);
 		gbc.gridy++;
 		buttonPanel.add(weight, gbc);
 		gbc.gridy++;
-		buttonPanel.add(price, gbc);
+		buttonPanel.add(date, gbc);
 		gbc.gridy++;
-		buttonPanel.add(system, gbc);
-
+		buttonPanel.add(type, gbc);
+		
 		gbc.gridx = 1;
 		gbc.gridy = 0;
-		buttonPanel.add(brandText, gbc);
-
+		buttonPanel.add(nameText, gbc);
 		gbc.gridy++;
-		buttonPanel.add(modelText, gbc);
-
+		buttonPanel.add(heightText, gbc);
 		gbc.gridy++;
 		buttonPanel.add(weightText, gbc);
-
 		gbc.gridy++;
-		buttonPanel.add(priceText, gbc);
+		buttonPanel.add(dateText, gbc);
 
 		buttonGroup = new ButtonGroup();
 		groupPanel = new JPanel();
-		iOS = new JRadioButton("IOS");
-		android = new JRadioButton("Android");
+		Student = new JRadioButton("Student");
+		Teacher = new JRadioButton("Teacher");
 		groupPanel.setLayout(new GridBagLayout());
-		buttonGroup.add(iOS);
-		buttonGroup.add(android);
+		buttonGroup.add(Student);
+		buttonGroup.add(Teacher);
 		gbc.gridx = 1;
 		gbc.gridy = 1;
-		groupPanel.add(iOS, gbc);
+		groupPanel.add(Student, gbc);
 		gbc.gridx = 2;
 		gbc.gridy = 1;
-		groupPanel.add(android, gbc);
+		groupPanel.add(Teacher, gbc);
 		gbc.gridx = 1;
 		gbc.gridy = 4;
 		buttonPanel.add(groupPanel, gbc);
@@ -99,21 +115,15 @@ public class PersonFormV1 extends MySimpleWindow{
 
 		allPanel.add(buttonPanel, BorderLayout.WEST);
 		windowPanel.add(allPanel, BorderLayout.NORTH);
-       // buttonPanel.setLayout(new GroupLayout());
+		
 
     }
 
     public static void createAndShowGUI() {
-        PersonFormV1 personFormV1 = new PersonFormV1("Person From V1");
-        personFormV1.addComponent();
-        personFormV1.setFrameFeatures();
+        PersonFormV1 PersonFormV1 = new PersonFormV1("Person From V1");
+        PersonFormV1.addComponent();
+        PersonFormV1.setFrameFeatures();
     }
-    protected void setFrameFeatures() {
-            this.setLocationRelativeTo(null);
-            setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-            pack();
-            setVisible(true);
-        }
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable(){
             public void run(){

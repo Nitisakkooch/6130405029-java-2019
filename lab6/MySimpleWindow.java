@@ -1,25 +1,27 @@
 package koochaiyaphum.nitisak.lab6;
-
-import java.awt.LayoutManager;
-
+/*
+*
+*/
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 import javax.swing.WindowConstants;
-import javax.swing.*;
+import java.awt.BorderLayout;
 
 public class MySimpleWindow extends JFrame {
+
+    private static final long serialVersionUID = 1L;
     protected static JButton buttonOk;
     protected static JButton buttoncancel;
     protected static JPanel buttonAll;
     protected JPanel windowPanel;
 
-    protected MySimpleWindow(String title) {
-        super(title);
+
+    public MySimpleWindow(String string) {
     }
 
-    protected  void addComponent() {
+    protected void addComponent() {
         buttoncancel = new JButton("Cancel");
         buttonOk = new JButton("OK");
 
@@ -27,9 +29,10 @@ public class MySimpleWindow extends JFrame {
         buttonAll.add(buttoncancel);
         buttonAll.add(buttonOk);
 
-        //windowPanel = new JPanel();
-        //windowPanel = this.getContentPane();
-       add(buttonAll, BorderLayout.SOUTH);
+        windowPanel = (JPanel) this.getContentPane();
+		windowPanel.setLayout(new BorderLayout());
+		windowPanel.add(buttonAll, BorderLayout.SOUTH);
+			
     }
 
     protected void setFrameFeatures(){
