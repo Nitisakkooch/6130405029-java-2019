@@ -1,0 +1,188 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GraphicsMoverV3",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab7.GraphicsMoverV3",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GraphicsMoverV2",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab7.GraphicsMoverV2",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GraphicsMoverV1",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab7.GraphicsMoverV1",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PersonFromV5",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab6.PersonFromV5",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PersonFromV4",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab6.PersonFromV4",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PersonFromV3",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab6.PersonFromV3",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PersonFormV2",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab6.PersonFormV2",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PersonFormV1",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab6.PersonFormV1",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberGuessingConfigurableGame",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab3.NumberGuessingConfigurableGame",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestBook",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.exam1.TestBook",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Calculator",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab2.Calculator",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GroupDivider",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.Testing.GroupDivider",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GroupDivider",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.exam1.GroupDivider",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test1_Output",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.Testing.Test1_Output",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test1",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.Testing.Test1",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestApp",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab6.TestApp",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Athlete",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab2.Athlete",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MySimpleWindow",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab6.MySimpleWindow",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestPersonV2",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab4.TestPersonV2",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestShape",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab5.TestShape",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestPerson",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab4.TestPerson",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestPerson",
+            "request": "launch",
+            "mainClass": "TestPerson",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberGuessingConfigurableGame",
+            "request": "launch",
+            "mainClass": "NumberGuessingConfigurableGame"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberGuessingMethodGame",
+            "request": "launch",
+            "mainClass": "NumberGuessingMethodGame"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberGuessingGame",
+            "request": "launch",
+            "mainClass": "NumberGuessingGame"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Calculator",
+            "request": "launch",
+            "mainClass": "Calculator"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - VowelsCounter",
+            "request": "launch",
+            "mainClass": "VowelsCounter"
+        }
+    ]
+}
