@@ -18,18 +18,10 @@ public class GraphicsMoverV3 extends GraphicsMoverV2{
     }
 
     public static void createAndShowGUI() {
-        GraphicsMoverV3 graphicsmoverv3 = new GraphicsMoverV3("Graphics Mover Version 3"); //Title of this program.
+        GraphicsMoverV3 graphicsmoverv3 = new GraphicsMoverV3("Graphics Mover Version 3"); 
           graphicsmoverv3.addComponent(); 
           graphicsmoverv3.setFrameFeatures(); 
       }
-
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(new Runnable() {
-            public void run() {
-                createAndShowGUI();
-            }
-        });
-    }
   
     @Override
     public void addComponent(){
@@ -53,4 +45,11 @@ public class GraphicsMoverV3 extends GraphicsMoverV2{
           setVisible(true);
           this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       }
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                createAndShowGUI();
+            }
+        });
+    }
 }

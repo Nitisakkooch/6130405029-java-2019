@@ -2,6 +2,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PersonFormV4",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab10.lab6.PersonFormV4",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PersonFormV4",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab6.PersonFormV4",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PersonFormV3",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab6.PersonFormV3",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PersonFormV1",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab10.lab6.PersonFormV1",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PersonFormV5",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab10.lab6.PersonFormV5",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PersonFormV2",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab10.lab6.PersonFormV2",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PersonFormV11",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab10.lab10.PersonFormV11",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PersonFormV11",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab10.PersonFormV11",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PersonFormV9",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab8.PersonFormV9",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PersonFormV6",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab8.PersonFormV6",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PersonFormV5",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab6.PersonFormV5",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - GraphicsMoverV3",
             "request": "launch",
             "mainClass": "koochaiyaphum.nitisak.lab7.GraphicsMoverV3",

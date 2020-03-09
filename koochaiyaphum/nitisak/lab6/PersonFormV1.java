@@ -1,13 +1,11 @@
-
+package koochaiyaphum.nitisak.lab6;
 /*
 This program java GUI name PersonFormV1 
 Author by :Nitisak Koochaiyaphum
 date : 23/01/2020
 ID : 613040502-9
 sec: 2
-
 */
-package koochaiyaphum.nitisak.lab6;
 import java.awt.BorderLayout;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -19,7 +17,6 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
-
 
 public class PersonFormV1 extends MySimpleWindow{
     /**
