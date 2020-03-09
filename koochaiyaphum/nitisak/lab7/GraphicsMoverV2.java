@@ -4,6 +4,10 @@ import javax.swing.*;
 
 public class GraphicsMoverV2 extends GraphicsMoverV1 {
 
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
     protected JPanel scorePanel;
     protected JLabel khonkaen, udonThani;
     protected JTextField khonkaenScore, udonThaniScore;

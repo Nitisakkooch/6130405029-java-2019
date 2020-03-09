@@ -6,7 +6,10 @@ import javax.swing.*;
 
 public class GraphicsMoverV3 extends GraphicsMoverV2{
     
-   
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
     protected JMenuBar menuBar;
     protected JMenu file;
     protected JMenuItem save, open, quit;
