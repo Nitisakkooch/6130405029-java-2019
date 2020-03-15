@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - GraphicsMoverV4",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab9.GraphicsMoverV4",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PersonFormV3",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab10.lab6.PersonFormV3",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PersonFormV6",
+            "request": "launch",
+            "mainClass": "koochaiyaphum.nitisak.lab10.lab8.PersonFormV6",
+            "projectName": "6130405029-labs_85885290"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PersonFormV4",
             "request": "launch",
             "mainClass": "koochaiyaphum.nitisak.lab10.lab6.PersonFormV4",

@@ -1,7 +1,5 @@
 package  koochaiyaphum.nitisak.lab7;
 
-import java.awt.*;
-
 import javax.swing.*;
 
 public class GraphicsMoverV3 extends GraphicsMoverV2{

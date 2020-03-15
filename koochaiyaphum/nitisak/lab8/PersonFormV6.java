@@ -42,7 +42,7 @@ public class PersonFormV6 extends PersonFormV5 implements ActionListener {
  
     protected String getInfoFromForm() {
         String info;
-        info = "Name : " + nameTxtField.getText() + "\n" +
+        info = "Name : " + nameTxtField.getTex0t() + "\n" +
                 "Height (cm) : " + heightTxtField.getText() + "\n" +
                 "Weight (kg) : " + weightTxtField.getText() + "\n" +
                 "Date of Birth : " + dobTxtField.getText() + "\n";

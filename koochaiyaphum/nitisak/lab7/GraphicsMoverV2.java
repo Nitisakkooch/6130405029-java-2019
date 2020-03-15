@@ -16,21 +16,7 @@ public class GraphicsMoverV2 extends GraphicsMoverV1 {
         super(title);
         // TODO Auto-generated constructor stub
     }
-    
-    public static void createAndShowGUI() {
-        GraphicsMoverV2 graphicsmoverv2 = new GraphicsMoverV2("Graphics Mover Version 2"); //Title of this program.
-          graphicsmoverv2.addComponent(); 
-          graphicsmoverv2.setFrameFeatures(); 
-      }
-  
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(new Runnable() {
-            public void run() {
-                createAndShowGUI();
-            }
-        });
-    }
-  
+
     @Override
     public void addComponent(){
         super.addComponent();
@@ -63,4 +49,17 @@ public class GraphicsMoverV2 extends GraphicsMoverV1 {
           setVisible(true);
           this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       }
+
+         public static void createAndShowGUI() {
+        GraphicsMoverV2 graphicsmoverv2 = new GraphicsMoverV2("Graphics Mover Version 2"); //Title of this program.
+          graphicsmoverv2.addComponent(); 
+          graphicsmoverv2.setFrameFeatures(); 
+      }
+      public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                createAndShowGUI();
+            }
+        });
+    }
 }
