@@ -3,7 +3,6 @@ package koochaiyaphum.nitisak.lab8;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
-import java.awt.event.*;
 import javax.swing.*;
 
 /**
@@ -40,7 +39,7 @@ public class PersonFormV9 extends PersonFormV8 implements ListSelectionListener 
     @Override
     protected void addListeners() {
         super.addListeners();
-        ListSelectionModel list = hobbies.getSelectionModel();
+        ListSelectionModel list = featuresList.getSelectionModel();
         list.addListSelectionListener(this);
     }
  
@@ -59,8 +58,8 @@ public class PersonFormV9 extends PersonFormV8 implements ListSelectionListener 
                 int min = list.getMinSelectionIndex();
                 int max = list.getMaxSelectionIndex();
                 for (int i = min; i <= max; i++) {
-                    if (hobbies.isSelectedIndex(i))
-                        s += hobbies.getModel().getElementAt(i).toString() + " ";
+                    if (featuresList.isSelectedIndex(i))
+                        s += featuresList.getModel().getElementAt(i).toString() + " ";
                 }
                 JOptionPane.showMessageDialog(this,
                         s,

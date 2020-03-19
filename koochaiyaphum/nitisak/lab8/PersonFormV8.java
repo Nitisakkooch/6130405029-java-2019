@@ -1,8 +1,6 @@
 package koochaiyaphum.nitisak.lab8;
 import javax.swing.SwingUtilities;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
- 
+
 import java.awt.event.*;
 import javax.swing.*;
 /**
@@ -36,7 +34,7 @@ public class PersonFormV8 extends PersonFormV7 implements ItemListener{
     @Override
     protected void addListeners() {
         super.addListeners();
-        typeBox.addItemListener(this);
+        typeCombo.addItemListener(this);
     }
  
     @Override

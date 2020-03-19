@@ -21,10 +21,10 @@ public class PersonFormV4 extends PersonFormV3{
     }
 
     private static final long serialVersionUID = 1L;
-	
+		protected JMenu colorMenu, sizeMenu;
     protected JMenuItem size16, size20, size24 ,red ,green , blue;
 	
-	protected void addComponents() {
+	protected void initComponents() {
 		super.addComponents();
 	}
 	
@@ -77,7 +77,4 @@ public class PersonFormV4 extends PersonFormV3{
 	}
 
 
-	protected void initComponents() {
-	}
-	
 }

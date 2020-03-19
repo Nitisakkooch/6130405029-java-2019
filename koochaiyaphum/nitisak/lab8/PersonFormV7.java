@@ -1,8 +1,6 @@
 package koochaiyaphum.nitisak.lab8;
 import javax.swing.SwingUtilities;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
- 
+
 import java.awt.event.*;
 import javax.swing.*;
 /**
@@ -39,20 +37,20 @@ public class PersonFormV7 extends PersonFormV6 implements ActionListener {
     @Override
     protected void addListeners() {
         super.addListeners();
-        student.addActionListener(this);
-        teacher.addActionListener(this);
+        Student.addActionListener(this);
+        Teacher.addActionListener(this);
     }
  
     @Override
     public void actionPerformed(ActionEvent e) {
         super.actionPerformed(e);
         Object source = e.getSource();
-        if (source == student) {
+        if (source == Student) {
             JOptionPane.showMessageDialog(this,
                     "Type : student has been selected",
                     "Person Information",
                     JOptionPane.INFORMATION_MESSAGE);
-        } else if (source == teacher) {
+        } else if (source == Teacher) {
             JOptionPane.showMessageDialog(this,
                     "Type : teacher has been selected",
                     "Person Information",

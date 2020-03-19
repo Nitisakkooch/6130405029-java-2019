@@ -28,7 +28,7 @@ public class PersonFormV3 extends PersonFormV2 {
 	private static final long serialVersionUID = 1L;
 	protected String[] featuresArray = { "Reading", "Traveling", "Cooking", "Photography" };
 	protected JLabel featuresLabel;
-	protected JList featuresList;
+	protected JList featuresList = new JList(featuresArray);
 	protected JMenu fileMenu;
 	protected JMenu configMenu;
 	protected JMenuBar menuBar;
@@ -43,6 +43,7 @@ public class PersonFormV3 extends PersonFormV2 {
 		 * @return nothing
 		 * 
 		 */
+
 		super.addComponents();
 		featuresLabel = new JLabel("Hobbies");
 		featuresList = new JList(featuresArray);

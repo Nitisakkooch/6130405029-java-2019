@@ -6,8 +6,8 @@ import java.awt.*;
 public class CanvasDrawerV1 extends JPanel {
     
     private static final long serialVersionUID = 1L;
-    int CANVAS_WIDTH = 800;
-    int CANVAS_HEIGHT = 500;
+    protected int CANVAS_WIDTH = 800;
+    protected int CANVAS_HEIGHT = 500;
     Color CANVAS_BACKGROUND = Color.green;
     int LINE_WIDTH = 4;
     int DOT_CIRCLE_RADIUS = 5;

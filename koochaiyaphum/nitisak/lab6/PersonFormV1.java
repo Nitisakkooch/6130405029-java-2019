@@ -114,6 +114,7 @@ public class PersonFormV1 extends MySimpleWindow{
 		windowPanel.add(allPanel, BorderLayout.NORTH);
 		
     }
+	
 
     public static void createAndShowGUI() {
         PersonFormV1 PersonFormV1 = new PersonFormV1("Person From V1");

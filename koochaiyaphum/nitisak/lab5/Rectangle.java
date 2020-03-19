@@ -10,9 +10,9 @@ public class Rectangle {
 	public Rectangle() {
 		super();
 	}
-	public Rectangle(double d, double e) {
+	public Rectangle(double Length, double Widht) {
     }
-    public Rectangle(double d, double e, String string, boolean b) {
+    public Rectangle(double Length, double Widht, String name, boolean filled) {
 	}
 	public Double getWidth() {
 		return null;

@@ -42,31 +42,31 @@ public class PersonFormV6 extends PersonFormV5 implements ActionListener {
  
     protected String getInfoFromForm() {
         String info;
-        info = "Name : " + nameTxtField.getTex0t() + "\n" +
-                "Height (cm) : " + heightTxtField.getText() + "\n" +
-                "Weight (kg) : " + weightTxtField.getText() + "\n" +
-                "Date of Birth : " + dobTxtField.getText() + "\n";
-        if (student.isSelected())
+        info = "Name : " + nameText.getText() + "\n" +
+                "Height (cm) : " + heightText.getText() + "\n" +
+                "Weight (kg) : " + weightText.getText() + "\n" +
+                "Date of Birth : " + dateText.getText() + "\n";
+        if (Student.isSelected())
             info += "Type : Student" + "\n";
         else
             info += "Type : Teacher" + "\n";
  
-        info += "Sports : " + typeBox.getSelectedItem().toString() + "\n";
+        info += "Sports : " + typeCombo.getSelectedItem().toString() + "\n";
  
         info += "Hobbies :";
-        if (hobbies.isSelectedIndex(0))
+        if (featuresList.isSelectedIndex(0))
             info += " Reading";
-        if (hobbies.isSelectedIndex(1))
+        if (featuresList.isSelectedIndex(1))
             info += " Traveling";
-        if (hobbies.isSelectedIndex(2))
+        if (featuresList.isSelectedIndex(2))
             info += " Cooking";
-        if (hobbies.isSelectedIndex(3))
+        if (featuresList.isSelectedIndex(3))
             info += " Photography";
         info += "\n";
-        info += "Note : " + reviewTxtArea.getText();
+        info += "Note : " + reviewArea.getText();
         return info;
     }
- 
+
     protected void handleOkButton() {
         String info = getInfoFromForm();
         JOptionPane.showMessageDialog(this,
@@ -74,13 +74,13 @@ public class PersonFormV6 extends PersonFormV5 implements ActionListener {
                 "Person Information",
                 JOptionPane.INFORMATION_MESSAGE);
     }
- 
+
     protected void handleCancelButton() {
-        nameTxtField.setText("");
-        heightTxtField.setText("");
-        weightTxtField.setText("");
-        dobTxtField.setText("");
-        reviewTxtArea.setText("");
+        nameText.setText("");
+        heightText.setText("");
+        weightText.setText("");
+        dateText.setText("");
+        reviewArea.setText("");
     }
  
     @Override
@@ -88,9 +88,9 @@ public class PersonFormV6 extends PersonFormV5 implements ActionListener {
         Object source = e.getSource();
         JDialog dialog = new JDialog();
         dialog.setTitle("Person Information");
-        if (source == okButton) {
+        if (source == buttonOk) {
             handleOkButton();
-        } else if (source == cancelButton) {
+        } else if (source == buttoncancel) {
             handleCancelButton();
         }
     }

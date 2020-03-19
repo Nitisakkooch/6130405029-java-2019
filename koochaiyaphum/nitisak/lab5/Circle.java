@@ -18,6 +18,8 @@ public  class Circle extends Shape{
         this.radius = radius;
 	}
 
+	public Circle(double radius, double ra, String color, boolean filled) {
+	}
 	@Override
     public double getArea() {
         // TODO Auto-generated method stub
