@@ -1,41 +1,48 @@
 package koochaiyaphum.nitisak.lab5;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 
-public class Rectangle {
+public class Rectangle extends Shape{
 
 	protected String name;
     protected double Length;
-	protected double Widht;
+	protected double Width;
+
 	public Rectangle() {
-		super();
+		this.Width = 1.0;
+        this.Length = 2.0;
 	}
 	public Rectangle(double Length, double Widht) {
+        this.Length = Length;
     }
-    public Rectangle(double Length, double Widht, String name, boolean filled) {
+    public Rectangle(double Length, double Widht, String color, boolean filled) {
+		super(color,filled); 
+        this.Length = Length;
 	}
 	public Double getWidth() {
-		return null;
+		return Width;
 	}
-	public void setWigth(double getWidth) {
-		return;
+	public void setWidth(double getWidth) {
+		
 	}
 	public Double getLength() {
-		return null;
+		return Length;
 	}
-	public  Object setLength(double getLength) {
-		return null;
+	public  void setLength(double getLength) {
+
 	}
-	public Double getArea() {
-		double A = Length*Widht; 
-		BigDecimal area = new BigDecimal(Length*Widht);
-		area = area.setScale(2, BigDecimal.ROUND_HALF_EVEN);
-		double area1 = area.doubleValue();
-		return area1;
+	public double getArea() {
+		double A = Length*Width;
+		BigDecimal area = new BigDecimal(A).setScale(2, RoundingMode.HALF_UP);
+		return area.doubleValue();
+
 	}
-	public String getPerimeter() {
-		return null;
+	public double getPerimeter() {
+		double perimeter = (Width*2) + (Length*2);
+        BigDecimal perimeter2 = new BigDecimal(perimeter).setScale(2, RoundingMode.HALF_UP);
+        return perimeter2.doubleValue();
 	}
-	
-    
+
+
 }

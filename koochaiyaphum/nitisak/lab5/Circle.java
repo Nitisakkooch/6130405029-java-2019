@@ -50,7 +50,7 @@ public  class Circle extends Shape{
     }
 	public  void setRadius(double d) {
 	}
-	public String getRadius() {/////////
+	public String getRadius() {
 		return null;
 	}
     
