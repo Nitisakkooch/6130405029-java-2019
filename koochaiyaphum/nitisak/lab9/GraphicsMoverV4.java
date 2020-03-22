@@ -10,10 +10,6 @@ import javax.swing.*;
  */
 public class GraphicsMoverV4 extends GraphicsMoverV3{
 
-
-    /**
-   *
-   */
   private static final long serialVersionUID = 1L;
   protected CanvasDrawerV2 canvasDrawerV2; 
   public GraphicsMoverV4(String title) {
@@ -22,26 +18,30 @@ public class GraphicsMoverV4 extends GraphicsMoverV3{
     }
 
     public void addComponent(){
-        super.addComponent();
-        windowPane = new JPanel();
-        toppanel = new CanvasDrawerV1();
-        bottompanel = new JPanel();
-        mUp = new JButton("Move Left Up");
-        mDown = new JButton("Move Left Down");
-        mLeft = new JButton("Move Right Up");
-        mRight = new JButton("Move RIght Down");
-        reset = new JButton("Reset");
-        windowPane.setLayout(new BorderLayout());
-        windowPane.add(toppanel, BorderLayout.CENTER);
-        bottompanel.setLayout(new FlowLayout());
-        bottompanel.add(mUp);
-        bottompanel.add(mDown);
-        bottompanel.add(mLeft);
-        bottompanel.add(mRight);
-        bottompanel.add(reset);
-        windowPane.add(bottompanel, BorderLayout.SOUTH);
-        setPreferredSize(new Dimension(800, 600));
-        add(windowPane);
+      main_panel.remove(CanvasDrawerV1);
+      main_panel.add(canvasDrawerV2, BorderLayout.CENTER);
+    }
+
+    protected void initComponents() {
+      windowPane = new JPanel();
+      toppanel = new CanvasDrawerV1();
+      bottompanel = new JPanel();
+      mUp = new JButton("Move Left Up");
+      mDown = new JButton("Move Left Down");
+      mLeft = new JButton("Move Right Up");
+      mRight = new JButton("Move RIght Down");
+      reset = new JButton("Reset");
+      windowPane.setLayout(new BorderLayout());
+      windowPane.add(toppanel, BorderLayout.CENTER);
+      bottompanel.setLayout(new FlowLayout());
+      bottompanel.add(mUp);
+      bottompanel.add(mDown);
+      bottompanel.add(mLeft);
+      bottompanel.add(mRight);
+      bottompanel.add(reset);
+      windowPane.add(bottompanel, BorderLayout.SOUTH);
+      setPreferredSize(new Dimension(800, 600));
+      add(windowPane);
     }
 
     public void setFrameFeatures() {
@@ -59,15 +59,11 @@ public class GraphicsMoverV4 extends GraphicsMoverV3{
           graphicsmoverv4.initComponents();
       }
     
-      private void initComponents() {
-
-      }
-
-      public static void main(String[] args) {
+    public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
           public void run() {
             createAndShowGUI(); 
           }
         });
-        }
+    }
 }
